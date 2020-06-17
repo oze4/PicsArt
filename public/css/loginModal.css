@@ -1,0 +1,10 @@
+.modal
+{
+    z-index: 999;
+    width: 500px;
+    height: 500px;
+}
+
+.MainBody{
+    opacity: 0.5;
+}

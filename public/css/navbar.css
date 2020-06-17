@@ -1,0 +1,167 @@
+body{
+   /* background-color: #EDF5E1; */
+   background-color: #fff;
+   margin: 0px !important;
+   padding: 0px !important;
+}
+.navbar-fixed
+{
+height: 0px !important;
+}
+.nav-wrapper
+{
+    background-color: #1f2833 !important;
+   
+}
+.nav-wrapper li a{
+    font-size: 18px !important;
+}
+.nav-wrapper li a, .sidenav li a{
+    font-size: 16px;
+    color: #bdbdbd;
+}
+.loginBtn{
+    margin: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.loginBtn:hover {
+    font-weight: 500;
+}
+.sidenav li {
+    height: 40px;
+}
+.sidenav li:nth-child(2nd){
+height: 100px;
+}
+
+.subsection{
+    margin-bottom: -10px !important;
+}
+
+.nav-wrapper li:last-child{
+ width: 120px;
+ text-align: center;
+}
+a:hover{
+    background-color: #1f2833 !important;
+    /* color:#E3E2DF !important; */
+    font-weight: 400;
+    color:white !important;
+}
+
+#form1{
+    margin-left:235px;
+  }
+  .side-nav li a {
+    text-decoration:none;
+  }
+  #searchResults2{
+    background-color:#666666;
+  }
+  #searchResults{
+    background-color:#666666;
+  }
+  .right li a{
+    padding-right:2em;
+    text-decoration:none
+  }
+ 
+
+  .brand-logo{
+      margin-left: 10px;
+  }
+
+  .input-field .material-icons{
+      color: black;
+  }
+  #search{
+    height: 40px;
+    position: absolute;
+    top: 7px;
+    background-color: #E3E2DF;
+  }
+
+  @media only screen and (max-width: 1065px){
+    #form1{
+        margin-left:200px;
+      }
+}
+.sidenav{
+    position: absolute;
+    top: 0px !important;
+    bottom: 0px !important;
+    background-color: #1f2833;
+    width: 235px !important;
+    position: fixed !important;
+}
+.sidenav ul{
+    margin-top: 200px;
+}
+.sidenav ul li a{
+    display: block;
+    padding: 0 40px 0 0;
+    text-decoration: none;
+    width:100%;
+    text-align:center;
+} 
+
+.line{
+    margin:0 auto;
+    display:block;
+    height: 1px !important;
+    border-color:1px solid black;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    background: linear-gradient(to right, rgba(1, 254, 228, 0) 0%, rgba(1, 254, 228, 1) 20%, rgba(1, 254, 228, 1) 80%, rgba(1, 254, 228, 0) 100%);
+    /* border-color: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(34,183,67,0.98) 50%, rgba(38,184,70,1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+    /* border-color: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(34,183,67,0.98) 50%,rgba(38,184,70,1) 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%); Chrome10-25,Safari5.1-6 */
+    /* border-color: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(34,183,67,0.98) 50%,rgba(38,184,70,1) 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ */
+
+}
+
+.MainBody{
+    margin-left: 255px;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 53px !important;
+        line-height: 53px !important;
+    }
+}
+
+@media only screen and (max-width: 1065px){
+    .input-field{
+        margin-left: 75px !important;
+    }
+  
+}
+
+@media only screen and (max-width: 800px){
+    .sidenav{
+    width: 200px !important;
+    }
+    .MainBody {
+        margin-left: 225px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .sidenav{
+    width: 150px !important;
+    }
+    .sidenav li{
+        margin-left: 20px;
+    }
+    .MainBody {
+        margin-left: 175px;
+    }
+}
+
+
+/* @media screen and (min-width: 990px) and (max-width:1020px) {
+ align the cart so that search and cart do not overlap
+} */

@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="/css/add.css">
+
+
+<div class="UploadDiv">
+    <div class="upload">
+        <div class="upload-files">
+            <header class="z-depth-2">
+                <p>
+                    <i class="large material-icons ">cloud_upload</i>
+                    <span class="up">up</span>
+                    <span class="load">load</span>
+                </p>
+            </header>
+
+            <div class="secondSection file-field input-field">
+                <form action="/add/Insert" method="post" enctype="multipart/form-data">
+                    <div class="row fileIcon">
+                        <i class="fa fa-file-text-o " style="font-size:60px;color:lightgray"></i>
+                    </div>
+                    <div class="row fileText center">
+                        <p class="fileUploadText"><strong class="fileUploadStrongText">Drag and drop </strong> files
+                            here </br>
+                            or <strong class="fileUploadStrongText fileUploadBtn">browse</strong><input name="myImage"
+                                type="file" class="fileArea"></input> to begin the upload</br>
+                        </p>
+                    </div>
+
+                    <div class="row titleDiv">
+                        <div class="col s12 m12 l11">
+                            <input name="myImage" class="file-path validate " placeholder="Uploaded File Name"
+                                type="text" disabled>
+                        </div>
+                    </div>
+
+                    <div class="row titleDiv">
+                        <div class="col s12 m12 l11">
+                            <input name="title" class="TitlePath" placeholder="Title for Image" type="text">
+                        </div>
+                    </div>
+
+                    <div class="row titleDiv">
+                        <div class="col  s12 m12 l11 checkboxDiv">
+                            <input type="checkBox" name="isHomeDisplay" id="homeDisplay">
+                            <label for="homeDisplay">Display Image on Home Page</label>
+                        </div>
+                    </div>
+
+
+                    <div class="row successDiv">
+                        {{#if msg}}
+                        {{#if success}}
+                        <p class="row successTag successMsg">Image Uploaded Successfully</p>
+                        {{/if}}
+                        {{#if error}}
+                        <p class="row errorTag errorMsg">Failed to Upload Image</p>
+                        {{/if}}
+                        {{else}}
+                        <p class="row successTag successMsg"></p>
+                        {{/if}}
+
+                    </div>
+
+
+                    <div class="row  submitDiv">
+                        <button class="btn waves-effect waves-light submitBtn z-depth-3" type="submit">Submit</button>
+                    </div>
+
+                    <div class="row noteDiv">
+                        <p class="row noteTag">NOTE :- Please Upload JPG, PNG, JPEG files only</p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
